@@ -1,0 +1,17 @@
+<h1>Hi there <%= @user.email %></h1>
+
+<p>
+  We are glad to welcome you to our app!
+  </br>
+  Please follow this link to go back to the web-app 😎.
+
+  <%= link_to "Back to App", root_url, class: "cta-button" %>
+</p>
+
+<style>
+  .cta-button{
+    border-radius: 5px;
+    background-color: lightpink;
+    padding: 10px;
+  }
+</style>
